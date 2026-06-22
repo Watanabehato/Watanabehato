@@ -2,9 +2,6 @@
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=200&section=header&text=渡辺鳩P&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Watanabehato%20·%20热爱开源的折腾玩家&descAlignY=60&descSize=18)
 
-<a href="https://github.com/Watanabehato">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=600&lines=%E2%9C%A8+你好%EF%BC%8C我是渡辺鳩P+%F0%9F%95%8A%EF%B8%8F;%F0%9F%8E%AE+游戏自动化工具开发者;%F0%9F%A4%96+QQ+机器人插件开发者;%F0%9F%93%A1+VTuber+%26+B站常驻观众" alt="Typing SVG" />
-</a>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Watanabehato&label=Profile%20Views&color=58a6ff&style=flat-square)
 [![Followers](https://img.shields.io/github/followers/Watanabehato?label=Followers&style=flat-square&color=blue)](https://github.com/Watanabehato)
