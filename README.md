@@ -1,122 +1,112 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=200&section=header&text=渡辺鳩P&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Watanabehato%20·%20热爱开源的折腾玩家&descAlignY=60&descSize=18)
+# 渡辺鳩P / Watanabehato
 
+游戏自动化、AstrBot 插件与实用脚本开发者  
+把重复操作做成工具，把踩坑过程整理成可复用的项目
 
-![Profile Views](https://komarev.com/ghpvc/?username=Watanabehato&label=Profile%20Views&color=58a6ff&style=flat-square)
-[![Followers](https://img.shields.io/github/followers/Watanabehato?label=Followers&style=flat-square&color=blue)](https://github.com/Watanabehato)
-[![Stars](https://img.shields.io/github/stars/Watanabehato?label=Stars&style=flat-square&color=yellow)](https://github.com/Watanabehato)
+[![GitHub](https://img.shields.io/badge/GitHub-Watanabehato-181717?style=flat-square&logo=github)](https://github.com/Watanabehato)
+[![Followers](https://img.shields.io/github/followers/Watanabehato?style=flat-square&label=Followers&color=1f883d)](https://github.com/Watanabehato?tab=followers)
+![Public Repos](https://img.shields.io/badge/dynamic/json?label=Public%20Repos&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2FWatanabehato&style=flat-square&color=0969da)
+[![Profile Updated](https://img.shields.io/github/last-commit/Watanabehato/Watanabehato?style=flat-square&label=Profile%20Updated&color=8250df)](https://github.com/Watanabehato/Watanabehato/commits/main)
 
 </div>
 
----
+## Profile
 
-## 🙋 关于我
+- 主要方向：MAAFramework 游戏自动化、QQ 机器人插件、社区群管理工具。
+- 常用语言：Python / TypeScript，按项目需要使用 JavaScript、C++、Kotlin 等。
+- 关注点：可靠的任务流程、清晰的日志与配置、能直接解决问题的小工具。
+- 工作习惯：把重复操作脚本化，把临时经验沉淀成文档、模板或可复用插件。
 
-- 🎮 **游戏自动化** — 基于 MAAFramework 开发《异环》《明日方舟》等游戏的辅助工具
-- 🤖 **QQ机器人插件作者** — 主攻 AstrBot 生态，专注群管理 / 内容审核 / 自动化场景
-- 🛠️ **开源协作者** — 活跃于 MaaNTE、SnowLuma、MAA-Meow 等项目，热衷提交 PR 和 Issue
-- 🐍 **主力技术栈**：Python · TypeScript
-- 📺 玩 VTuber DD 工具，业余写点 ffmpeg 小脚本
-- ☕ 信条：能用脚本解决的事，绝不手动重复
+## Current Focus
 
----
+- **MAAFramework 生态**：跟进 MaaNTE、MAA-Meow、MaaPracticeBoilerplate 等项目，处理自动化流程、控制器兼容和文档规范问题。
+- **AstrBot / QQ 机器人**：构建群管理、违规处理、入群验证和内容审核相关插件。
+- **效率工具**：维护 ffmpeg 视频处理脚本、GitHub 辅助工具和可复用的 Codex 技能配置。
 
-## 🚀 近期主力项目（2026.05 - 2026.06）
+## Selected Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🤖 [astrbot_plugin_QManagementMaster](https://github.com/Watanabehato/astrbot_plugin_QManagementMaster)
-> AstrBot 多群联动违规管理系统
+### [astrbot_plugin_QManagementMaster](https://github.com/Watanabehato/astrbot_plugin_QManagementMaster)
 
-支持禁言、踢人、警告、黑名单等功能，适用于多群协同治理场景。
+支持多群联动的 AstrBot 违规管理系统，覆盖禁言、踢人、警告、黑名单等场景。
 
-`Python` `AstrBot` `近两月 20 commits`
+![Language](https://img.shields.io/github/languages/top/Watanabehato/astrbot_plugin_QManagementMaster?style=flat-square)
+![License](https://img.shields.io/github/license/Watanabehato/astrbot_plugin_QManagementMaster?style=flat-square)
+![Stars](https://img.shields.io/github/stars/Watanabehato/astrbot_plugin_QManagementMaster?style=flat-square)
 
 </td>
 <td width="50%" valign="top">
 
-### 🎮 [MaaNTE](https://github.com/Watanabehato/MaaNTE)
-> MAA《异环》自动化小助手
+### [MaaNTE](https://github.com/Watanabehato/MaaNTE)
 
-由 MAAFramework 强力驱动，支持每日任务自动化。
+基于 MAAFramework 的《异环》自动化小助手。此 fork 主要用于跟进上游、测试功能和提交修复。
 
-`Python` `MAAFramework` `上游贡献活跃`
+![Language](https://img.shields.io/github/languages/top/Watanabehato/MaaNTE?style=flat-square)
+![License](https://img.shields.io/github/license/Watanabehato/MaaNTE?style=flat-square)
+![Stars](https://img.shields.io/github/stars/Watanabehato/MaaNTE?style=flat-square)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🛡️ [Napcat_block_user](https://github.com/Watanabehato/Napcat_block_user)
-> NapCat 用户屏蔽插件
+### [Napcat_block_user](https://github.com/Watanabehato/Napcat_block_user)
 
-自动屏蔽指定用户消息，防止机器人被恶意触发。
+NapCat 用户屏蔽插件，用于自动屏蔽指定用户消息，降低机器人被恶意触发的风险。
 
-`TypeScript` `MIT`
+![Language](https://img.shields.io/github/languages/top/Watanabehato/Napcat_block_user?style=flat-square)
+![License](https://img.shields.io/github/license/Watanabehato/Napcat_block_user?style=flat-square)
+![Stars](https://img.shields.io/github/stars/Watanabehato/Napcat_block_user?style=flat-square)
 
 </td>
 <td width="50%" valign="top">
 
-### 👥 [Astrbot-Maante-Group-Management](https://github.com/Watanabehato/Astrbot-Maante-Group-Management)
-> 异环社区群管理插件
+### [Astrbot-Maante-Group-Management](https://github.com/Watanabehato/Astrbot-Maante-Group-Management)
 
-为异环 QQ 社区量身定制的 AstrBot 群管插件。
+面向异环社区的 AstrBot 群管理插件，把常见群管流程整理成可复用的自动化能力。
 
-`Python` `AGPL-3.0`
+![Language](https://img.shields.io/github/languages/top/Watanabehato/Astrbot-Maante-Group-Management?style=flat-square)
+![License](https://img.shields.io/github/license/Watanabehato/Astrbot-Maante-Group-Management?style=flat-square)
+![Stars](https://img.shields.io/github/stars/Watanabehato/Astrbot-Maante-Group-Management?style=flat-square)
 
 </td>
 </tr>
 </table>
 
----
+## Toolbox
 
-## 🛠️ 技术栈
+<p align="center">
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white">
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black">
+  <img alt="C++" src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white">
+  <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white">
+  <br>
+  <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
+  <img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white">
+  <img alt="AstrBot" src="https://img.shields.io/badge/AstrBot-2F81F7?style=flat-square">
+  <img alt="MAAFramework" src="https://img.shields.io/badge/MAAFramework-0969DA?style=flat-square">
+  <img alt="FFmpeg" src="https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white">
+</p>
 
-<div align="center">
+## Repository Snapshot
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+<p align="center">
+  <img alt="Public repos" src="https://img.shields.io/badge/dynamic/json?label=Public%20Repos&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2FWatanabehato&style=flat-square&color=0969da">
+  <img alt="Followers" src="https://img.shields.io/github/followers/Watanabehato?style=flat-square&label=Followers&color=1f883d">
+  <img alt="Profile last commit" src="https://img.shields.io/github/last-commit/Watanabehato/Watanabehato?style=flat-square&label=Profile%20Updated&color=8250df">
+  <img alt="QManagementMaster last commit" src="https://img.shields.io/github/last-commit/Watanabehato/astrbot_plugin_QManagementMaster?style=flat-square&label=QManagementMaster&color=0969da">
+</p>
 
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white)
-
-</div>
-
----
-
-## 📊 GitHub 数据
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Watanabehato&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Watanabehato&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Watanabehato&theme=tokyonight&hide_border=true" />
-
-</div>
-
----
-
-## 🌱 近期动态
-
-- 🔥 **2026.06** — 发布 `astrbot_plugin_QManagementMaster` 多群联动违规管理插件
-- 🛠️ **2026.06** — 为 MaaNTE 修复 Win32-Front 键盘 SendInput 问题（解决 UE 客户端按键失效）
-- 📝 **2026.06** — 为 MAA-Meow / MaaPracticeBoilerplate / MaaNTE 提交 PR 规范文档
-- 📺 **2026.06** — MaaNTE-Web 完成 SEO 优化与移动端适配修复
-- ✨ **2026.05** — 创建 `DDVideo-Convert-Tool` ffmpeg 视频处理工具
-
----
+> 手写内容只保留长期方向和项目说明；仓库数量、followers、项目语言、license、stars 和更新时间均使用公开 GitHub 数据动态生成，以减少过期信息。
 
 <div align="center">
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=120&section=footer)
-
-**​「鳩のように、どこまでも自由に 🕊️」​**
+<sub>自由に作る。確かに直す。</sub>
 
 </div>
